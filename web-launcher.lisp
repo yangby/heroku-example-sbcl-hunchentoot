@@ -25,7 +25,7 @@
              'string (asdf::getenv "SBCL_HOME") "/")))
 (defvar *port* (parse-integer (asdf::getenv "PORT")))
 
-(log-title "Checking input parameters ...")
+(log-title "Checking environment variables ...")
 (log-content "VIRTUAL_ROOT = ~a" *virtual-root*)
 (log-content "   SBCL_HOME = ~a" *sbcl-home*)
 (log-content "        PORT = ~d" *port*)
